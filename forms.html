@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Allicant's Details:</legend>
+
+        <form action="mailto:ditamrauniyar@gmail.com">
+            <div>
+
+                <label for="MyFirstName">First Name:</label>
+                <input type="text" name="name" id="MyFirstName" placeholder="Applicant's Name">
+                <label for="MyMiddleName">Middle Name:</label>
+                <input type="text" name="mname" id="MyMiddleName">
+                <label for="MyLastName">Last Name:</label>
+                <input type="text" name="lname" id="MyLastName">
+            </div>
+            <br>
+            <div>
+                <label for="MyAddress">Address:</label>
+                <input type="text" name="Address" id="MyAddress">
+                <label for="Ward">Ward/Tole No:</label>
+                <input type="text" name="tole" id="Ward">
+
+            </div>
+            <br>
+            <div>
+                <label for="FName">Father's Name:</label>
+                <input type="text" name="Father" id="FName">
+            </div>
+            <br>
+            <div>
+                <label for="PNumber">Phone Number:</label>
+                <input type="text" name="Phone" id="PNumber">
+                <label for="LNumber">Landline Number:</label>
+                <input type="text" name="Landline" id="LNumber">
+            </div>
+            <br>
+
+            <div>
+                Gender: <label for="Male">Male</label><input type="radio" name="MFO" id="Male" checked>
+                <label for="Female">Female</label><input type="radio" name="MFO" id="Female" >
+                <label for="Others">Others</label><input type="radio" name="MFO" id="Others">
+            </div>
+            <br>
+            <div>
+                <label for="Course"><strong> Which course do you want to learn?</strong></label>
+                <select name="mycourse" id="Course">
+                <option value="py">Python</option>
+                <option value="pyDj">Python with Django</option>
+                <option value="pl">PHP with Laravel</option>
+                <option value="mern" selected>MERN Stack</option >
+                <option value="mean">MEAN Stack</option>
+                <option value="DS">Data Scientist</option>
+                <option value="QA">Quality Assurance</option>
+                <option value="DA">Data Analyst</option>
+                <option value="DM">Digital Marketing</option>
+                <option value="Des">UI/UX Desing</option>
+            </select>
+            </div>
+            <br>
+            <div>
+                <label for="Yes">Are You Eligibile?</label>
+                Yes<input type="radio" name="Eligibility" id="Yes" checked>
+                No <input type="radio" name="Eligibility" id="No">
+            </div>
+            <br>
+            <div>
+                <label for="About us">How did you know about us? </label>
+                <select name="Know About Us" id="About us">
+                    <option value="FB">Facebook</option>
+                    <option value="Insta">Instagram</option>
+                    <option value="google">Google</option>
+                    <option value="Friends">Friends/Relatives</option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="More">Share something more about you &#128516;</label>
+                <br>
+                <textarea name="More" id="More" cols="80" rows="15" placeholder="Write about Yourself"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="date">Date of form fill up: </label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <div>
+               <input type="submit" value="Submit Now"> 
+               <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>
